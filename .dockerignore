@@ -1,0 +1,27 @@
+# Exclude Python virtual environment
+venv/
+env/
+*.pyc
+
+# Exclude version control
+.git
+.gitignore
+
+# Exclude Docker files themselves
+Dockerfile
+.dockerignore
+
+# Exclude any local configuration or secret files
+*.env
+*.log
+*.key
+
+# Exclude any other files or directories you don't need in your image
+node_modules/
+__pycache__/
+MarkdownFiles/
+OldFiles/
+*.tmp
+*.bak
+requirementsBackup.txt
+configBackup.json
